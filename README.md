@@ -35,6 +35,6 @@ Currently running two GNOME+mutter systems, Pop_OS! 21.10 and Fedora 35.
 - **Spotify:** [Sleek, Elementary (Spicetify)](https://github.com/morpheusthewhite/spicetify-themes)
 
 ## App config files
-- [Alacritty](./alacritty.yml)
-- [Aliases](./.aliases)
-- [Neofetch](./neo.conf)
+- [Alacritty](./config/alacritty.yml)
+- [Aliases](./config/.aliases)
+- [Neofetch](./config/neo.conf)

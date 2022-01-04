@@ -4,7 +4,15 @@ Current configuration of my linux enviroments.
 # General information
 Currently running two GNOME+mutter systems, Pop_OS! 21.10 and Fedora 35.
 
+### screenshots
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop2.png" width="960px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop3.png" width="960px" />
+
 ### fetches
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/neofetch.png" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/treefetch.png" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/nerdfetch.png" />
 
 ## GNOME extensions
 - [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/)

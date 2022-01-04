@@ -11,8 +11,8 @@ Currently running two GNOME+mutter systems, Pop_OS! 21.10 and Fedora 35.
 
 ### fetches
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/neofetch.png" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/treefetch.png" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/nerdfetch.png" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/treefetch.png" width="450px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/nerdfetch.png" width="450px" />
 
 ## GNOME extensions
 - [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/)

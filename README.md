@@ -31,7 +31,7 @@ Currently running two GNOME+mutter systems, Pop_OS! 21.10 and Fedora 35.
 
 ## GNOME tweaks
 - **Theme:** [Rose Pine (GTK)](https://github.com/rose-pine/gtk)
-- **Cursor:** [MacOS Big Sur](https://www.gnome-look.org/p/1400988/)
+- **Cursor:** [MacOS Big Sur](https://www.gnome-look.org/p/1408466/)
 - **Icons:** [Big Sur Originals Prime](https://www.gnome-look.org/p/1427387/)
 - **Shell:** [Orchis Dark Compact](https://github.com/vinceliuice/Orchis-theme)
 

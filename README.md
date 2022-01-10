@@ -2,7 +2,9 @@
 Current configuration of my linux enviroments.
 
 # General information
-Currently running two GNOME+mutter systems, Pop_OS! 21.10 and Fedora 35.
+- Fedora 35, Wayland, GNOME 41, Mutter, using fish as shell.
+- Pop_OS! 21.10, X11, GNOME 40, Mutter, using fish as shell.
+
 
 ### screenshots
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />

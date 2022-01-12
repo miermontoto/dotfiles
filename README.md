@@ -29,6 +29,7 @@ Current configuration of my linux enviroments.
 - [spotify-tray](https://extensions.gnome.org/extension/4472/spotify-tray/)
 - [Transparent Top Bar](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
+- [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
 - Cosmic Workspaces, Ubuntu AppIndicators (only on Pop_OS!)
 
 ## GNOME tweaks

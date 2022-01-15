@@ -5,7 +5,7 @@ Current configuration of my linux enviroments.
 - 2x Fedora 35, Wayland and X11, GNOME 41, Mutter, using fish as shell.
 
 
-### screenshots
+### screenshots (outdated)
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop2.png" width="960px" />
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop3.png" width="960px" />
@@ -16,7 +16,7 @@ Current configuration of my linux enviroments.
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/nerdfetch.png" width="450px" />
 
 ## GNOME extensions
-- [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/)
+- [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/) / [NASA APOD Wallpaper](https://extensions.gnome.org/extension/1202/nasa-apod/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)

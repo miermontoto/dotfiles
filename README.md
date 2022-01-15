@@ -2,8 +2,7 @@
 Current configuration of my linux enviroments.
 
 # General information
-- Fedora 35, Wayland, GNOME 41, Mutter, using fish as shell.
-- Pop_OS! 21.10, X11, GNOME 40, Mutter, using fish as shell.
+- 2x Fedora 35, Wayland and X11, GNOME 41, Mutter, using fish as shell.
 
 
 ### screenshots
@@ -30,7 +29,7 @@ Current configuration of my linux enviroments.
 - [Transparent Top Bar](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
-- Cosmic Workspaces, Ubuntu AppIndicators (only on Pop_OS!)
+- [AppIndicator](https://extensions.gnome.org/extension/615/appindicator-support/)
 
 ## GNOME tweaks
 - **Theme:** [Rose Pine (GTK)](https://github.com/rose-pine/gtk)

@@ -5,16 +5,6 @@ Current configuration of my linux enviroments.
 - 2x Fedora 35, Wayland and X11, GNOME 41, Mutter, using fish as shell.
 
 
-### screenshots (outdated)
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop2.png" width="960px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop3.png" width="960px" />
-
-### fetches
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/neofetch.png" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/treefetch.png" width="450px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/nerdfetch.png" width="450px" />
-
 ## GNOME extensions
 - [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/) / [NASA APOD Wallpaper](https://extensions.gnome.org/extension/1202/nasa-apod/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
@@ -48,3 +38,16 @@ Current configuration of my linux enviroments.
 - [Alacritty](./config/alacritty.yml)
 - [Aliases](./config/.aliases)
 - [Neofetch](./config/neo.conf)
+
+
+### screenshots (outdated)
+the following screenshots and fetches are outdated. they used rose-pine themes, except Sleek(Elementary), for Spotify in Pop_OS!
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop2.png" width="960px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop3.png" width="960px" />
+
+### fetches
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/neofetch.png" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/treefetch.png" width="450px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/nerdfetch.png" width="450px" />
+

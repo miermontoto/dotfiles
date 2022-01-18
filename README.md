@@ -36,7 +36,7 @@ Current configuration of my linux enviroments.
 
 ## App config files
 - [Alacritty](./config/alacritty.yml)
-- [Aliases](./config/.aliases)
+- [Fish](./config/config.fish)
 - [Neofetch](./config/neo.conf)
 
 

@@ -32,16 +32,16 @@ Current configuration of my linux enviroments.
 - [AppIndicator](https://extensions.gnome.org/extension/615/appindicator-support/)
 
 ## GNOME tweaks
-- **Theme:** [Rose Pine (GTK)](https://github.com/rose-pine/gtk)
+- **Theme:** [Juno](https://www.gnome-look.org/p/1280977/) / [Nordic](https://www.gnome-look.org/p/1267246/) (darker)
 - **Cursor:** [MacOS Big Sur](https://www.gnome-look.org/p/1408466/)
 - **Icons:** [Big Sur Originals Prime](https://www.gnome-look.org/p/1427387/)
 - **Shell:** [Orchis Dark Compact](https://github.com/vinceliuice/Orchis-theme)
 
 ## App themes
 - **Firefox:** [Dark space (animated)](https://github.com/nicoth-in/Dark-Space-Theme)
-- **Discord:** [Rose Pine (BetterDiscord)](https://github.com/rose-pine/betterdiscord)
-- **VSCode:** [Rose Pine (VSCode)](https://github.com/rose-pine/vscode)
-- **Alacritty:** [Rose Pine (Alacritty)](https://github.com/rose-pine/alacritty)
+- **Discord:** [GitHub Dark](https://github.com/moistp1ckle/GitHub_Dark)
+- **VSCode:** [GitHub Light/Dark Default](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+- **Alacritty:** [Ayu_dark](https://github.com/eendroroy/alacritty-theme)
 - **Spotify:** [Sleek, Elementary (Spicetify)](https://github.com/morpheusthewhite/spicetify-themes)
 
 ## App config files

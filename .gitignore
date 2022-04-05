@@ -1,0 +1,6 @@
+config/*
+!config/alacritty
+!config/fish
+!config/starship.toml
+!config/neofetch
+sync_settings.sh

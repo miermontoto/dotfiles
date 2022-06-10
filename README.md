@@ -4,7 +4,6 @@ Current configuration of my linux enviroments.
 # General information
 - 2x Fedora 35, Wayland and X11, GNOME 41, Mutter, using fish as shell.
 
-
 ## GNOME extensions
 - [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/) / [NASA APOD Wallpaper](https://extensions.gnome.org/extension/1202/nasa-apod/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
@@ -30,14 +29,9 @@ Current configuration of my linux enviroments.
 ## App themes
 - **Firefox:** [Dark space (animated)](https://github.com/nicoth-in/Dark-Space-Theme)
 - **Discord:** [GitHub Dark](https://github.com/moistp1ckle/GitHub_Dark)
-- **VSCode:** [GitHub Light/Dark Default](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
+- **VSCode:** [Popping and Locking](https://marketplace.visualstudio.com/items?itemName=hedinne.popping-and-locking-vscode)
 - **Alacritty:** [Ayu_dark](https://github.com/eendroroy/alacritty-theme)
 - **Spotify:** [Sleek, Elementary (Spicetify)](https://github.com/morpheusthewhite/spicetify-themes)
-
-## App config files
-- [Alacritty](./config/alacritty.yml)
-- [Fish](./config/config.fish)
-- [Neofetch](./config/neo.conf)
 
 
 ### screenshots (outdated)

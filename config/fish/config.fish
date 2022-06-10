@@ -19,4 +19,3 @@ alias nmap="sudo nmap"
 alias hc="headsetcontrol"
 
 thefuck --alias | source
-starship init fish | source

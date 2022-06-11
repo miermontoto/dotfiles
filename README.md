@@ -2,7 +2,7 @@
 Current configuration of my linux enviroments.
 
 # General information
-- 2x Fedora 35, Wayland and X11, GNOME 41, Mutter, using fish as shell.
+- 2x Fedora 36, Wayland, GNOME 42, Mutter, using fish as shell.
 
 ## GNOME extensions
 - [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/) / [NASA APOD Wallpaper](https://extensions.gnome.org/extension/1202/nasa-apod/)

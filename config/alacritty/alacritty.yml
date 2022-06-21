@@ -851,8 +851,13 @@ window:
   #print_events: false
 font:
   normal:
+    family: "Menlo"
+    family: "SF Mono"
+    family: "Fira Code"
+    family: "FiraCode Nerd Font"
     family: "CaskaydiaCove Nerd Font"
-  size: 13.0
+    family: "JetBrains Mono Medium"
+  size: 13.5
     
 import:
   - /home/under/.config/alacritty/iterm.yml
@@ -861,7 +866,7 @@ cursor:
   style:
     shape: Beam
     blinking: Always
-#background_opacity: 0.9
+
 mouse_bindings:
   - { mouse: Right, action: Paste }
 key_bindings:

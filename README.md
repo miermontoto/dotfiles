@@ -1,13 +1,23 @@
 # dotfiles
 Current configuration of my linux enviroments.
 
-# General information
-- 2x Fedora 36, Wayland, GNOME 42, Mutter, using fish as shell.
+## info
+- Fedora 36, Wayland, GNOME 42, Mutter, using fish as shell.
 
+# screenshots
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop2.png" width="960px" />
+<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop3.png" width="960px" />
+
+# configs
 ## GNOME extensions
-- [Bing Wallpaper](https://extensions.gnome.org/extension/1262/bing-wallpaper-changer/) / [NASA APOD Wallpaper](https://extensions.gnome.org/extension/1202/nasa-apod/)
+- [AppIndicator](https://extensions.gnome.org/extension/615/appindicator-support/)
+- [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
+- [Blur my shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- [Dash to Dock for COSMIC](https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/)
+- [Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/)
+- [Gamemode Indicator](https://extensions.gnome.org/extension/1852/gamemode/)
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
 - [Logo Menu](https://extensions.gnome.org/extension/4451/logo-menu/)
 - [NoAnnoyance v2](https://extensions.gnome.org/extension/2182/noannoyance/)
@@ -18,30 +28,21 @@ Current configuration of my linux enviroments.
 - [Transparent Top Bar](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
-- [AppIndicator](https://extensions.gnome.org/extension/615/appindicator-support/)
 
 ## GNOME tweaks
-- **Theme:** [Juno](https://www.gnome-look.org/p/1280977/) / [Nordic](https://www.gnome-look.org/p/1267246/) (darker)
+- **Theme:** [Tokyo Night GTK](https://www.gnome-look.org/p/1681315/)
 - **Cursor:** [MacOS Big Sur](https://www.gnome-look.org/p/1408466/)
 - **Icons:** [Big Sur Originals Prime](https://www.gnome-look.org/p/1427387/)
-- **Shell:** [Orchis Dark Compact](https://github.com/vinceliuice/Orchis-theme)
+- **Shell:** [Tokyo Night Shell](https://www.pling.com/p/1681470/)
+- **Wallpaper:** Mac OS "The Cliffs" dynamic background, using [Linux Dynamic Wallpapers](https://github.com/saint-13/Linux_Dynamic_Wallpapers)
+- **Fonts:** [SF Pro Display](https://github.com/jamieahelmke/sys-resources/tree/main/mac-fonts) in UI, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) for monospace and Alacritty, [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads) for VSCode.
 
 ## App themes
-- **Firefox:** [Dark space (animated)](https://github.com/nicoth-in/Dark-Space-Theme)
-- **Discord:** [GitHub Dark](https://github.com/moistp1ckle/GitHub_Dark)
-- **VSCode:** [Popping and Locking](https://marketplace.visualstudio.com/items?itemName=hedinne.popping-and-locking-vscode)
-- **Alacritty:** [Ayu_dark](https://github.com/eendroroy/alacritty-theme)
-- **Spotify:** [Sleek, Elementary (Spicetify)](https://github.com/morpheusthewhite/spicetify-themes)
+- **Firefox:** [Tokyo Night V2](https://addons.mozilla.org/en-US/firefox/addon/tokyo-night-v2/)
+- **Discord:** [Tokyo Night](https://betterdiscord.app/theme/Tokyo%20Night)
+- **VSCode:** [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night), modded with Monkey Patch.
+- **Alacritty:** [Tokyo Night](https://github.com/zatchheems/tokyo-night-alacritty-theme)
+- **Spotify:** [Sleek](https://github.com/morpheusthewhite/spicetify-themes) with [Tokyo Night color](https://gist.github.com/8KCoffeeWizard/fef5ec6d6adc1ba000f3a82e2a2b45bd)
 
 
-### screenshots (outdated)
-the following screenshots and fetches are outdated. they used rose-pine themes, except Sleek(Elementary), for Spotify in Pop_OS!
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop2.png" width="960px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop3.png" width="960px" />
-
-### fetches
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/neofetch.png" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/treefetch.png" width="450px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/fetches/nerdfetch.png" width="450px" />
 

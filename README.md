@@ -32,7 +32,7 @@ Current configuration of my linux enviroments.
 ## GNOME tweaks
 - **Theme:** [Tokyo Night GTK](https://www.gnome-look.org/p/1681315/)
 - **Cursor:** [MacOS Big Sur](https://www.gnome-look.org/p/1408466/)
-- **Icons:** [Big Sur Originals Prime](https://www.gnome-look.org/p/1427387/)
+- **Icons:** [Big Sur Originals Prime](https://github.com/Macintosh98/BigSur-Originals)
 - **Shell:** [Tokyo Night Shell](https://www.pling.com/p/1681470/)
 - **Wallpaper:** Mac OS "The Cliffs" dynamic background, using [Linux Dynamic Wallpapers](https://github.com/saint-13/Linux_Dynamic_Wallpapers)
 - **Fonts:** [SF Pro Display](https://github.com/jamieahelmke/sys-resources/tree/main/mac-fonts) in UI, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) for monospace and Alacritty, [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads) for VSCode.

@@ -2,7 +2,7 @@
 Current configuration of my linux enviroments.
 
 ## info
-- Fedora 36, Wayland, GNOME 42, Mutter, using fish as shell.
+- Fedora 36 (Nobara), Wayland, GNOME 42, Mutter, using fish as shell.
 
 # screenshots
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />

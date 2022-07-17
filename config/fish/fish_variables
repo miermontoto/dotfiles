@@ -4,8 +4,10 @@ SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_install:sudo\x20dnf\x20install
 SETUVAR _fish_abbr_nf:neofetch
 SETUVAR _fish_abbr_pi:ssh\x20pi\x40192\x2e168\x2e0\x2e2
+SETUVAR _fish_abbr_remove:sudo\x20dnf\x20remove
 SETUVAR _fish_abbr_server:ssh\x20server\x40192\x2e168\x2e0\x2e88
 SETUVAR _fish_abbr_update:sudo\x20dnf\x20update\x20\x2dy\x20\x26\x26\x20flatpak\x20upgrade
+SETUVAR _fish_abbr_windows:systemctl\x20reboot\x20\x2d\x2dfirmware\x2dsetup
 SETUVAR fish_color_autosuggestion:4D5566
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:39BAE6

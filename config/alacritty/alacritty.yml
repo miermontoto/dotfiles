@@ -857,11 +857,11 @@ font:
     family: "FiraCode Nerd Font"
     family: "CaskaydiaCove Nerd Font"
     family: "JetBrains Mono Medium"
-  size: 13.5
-    
+  size: 12.5
+
 import:
   - /home/under/.config/alacritty/iterm.yml
-    
+
 cursor:
   style:
     shape: Beam
@@ -872,7 +872,7 @@ mouse_bindings:
 key_bindings:
   - { key: V, mods: Control, action: Paste }
   - { key: C, mods: Control, action: Copy }
-  
+
 
 schemes:
   # Tokyo Night theme, based on both:

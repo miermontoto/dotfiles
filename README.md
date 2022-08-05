@@ -23,6 +23,7 @@ Current configuration of my linux enviroments.
 - [NoAnnoyance v2](https://extensions.gnome.org/extension/2182/noannoyance/)
 - [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
 - [Remove Alt+Tab Delay v2](https://extensions.gnome.org/extension/2741/remove-alttab-delay-v2/)
+- [Rounded Window Corners](https://extensions.gnome.org/extension/5237/rounded-window-corners/?c=130913)
 - [Sound i/o Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
 - [spotify-tray](https://extensions.gnome.org/extension/4472/spotify-tray/)
 - [Transparent Top Bar](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)

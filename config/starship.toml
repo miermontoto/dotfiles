@@ -49,7 +49,7 @@ format = "[ﱿ ](bold 214)[$path]($style)[$lock_symbol]($lock_style) "
 style = "bold 214"
 
 [git_branch]
-format = " [$symbol$branch]($style) "
+format = "[$symbol$branch]($style) "
 symbol = " "
 style = "bold yellow"
 
@@ -82,6 +82,7 @@ disabled = false
 [python]
 format = "[$symbol$version]($style) "
 style = "bold green"
+symbol = " "
 
 [rust]
 format = "[$symbol$version]($style) "

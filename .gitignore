@@ -1,6 +1,4 @@
-config/*
+config
 !config/alacritty
-!config/fish
 !config/neofetch
-!config/Code/User/settings.json
 !config/starship.toml

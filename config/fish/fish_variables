@@ -1,7 +1,19 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR AOC_ru:53616c7465645f5f5a73a61d317ce1f921a616d604f5734fcbba8b78b0eb4f091871317c2ef05afb66b57f1eb6c3a725
+SETUVAR AOC_session:53616c7465645f5f463745ffea4c9d5a5fd39eea565efebec36970d3f60c74f4509546572e38bf59b7a98c8da10d6d5a2fc1779ff7a51f07752782229b87085a
+SETUVAR --export --path GOPATH:/home/mier/go
 SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_activate:source\x20env/bin/activate\x2efish
 SETUVAR _fish_abbr_configure:\x2e/configure
+SETUVAR _fish_abbr_dios:ssh\x20\x2dp\x202222\x20PCP71777658V\x40di119\x2eedv\x2euniovi\x2ees
+SETUVAR _fish_abbr_epi:python3\x20\x7e/git/epiCalendar/epiCalendar\x2epy
+SETUVAR _fish_abbr_ga:git\x20add\x20\x2e
+SETUVAR _fish_abbr_gaa:git\x20add\x20\x2e
+SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
+SETUVAR _fish_abbr_gp:git\x20push
+SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_install:sudo\x20dnf\x20install
 SETUVAR _fish_abbr_nf:neofetch
 SETUVAR _fish_abbr_pi:ssh\x20pi\x40192\x2e168\x2e0\x2e2
@@ -10,7 +22,7 @@ SETUVAR _fish_abbr_server:ssh\x20server\x40192\x2e168\x2e0\x2e88
 SETUVAR _fish_abbr_update:sudo\x20dnf\x20update\x20\x2dy\x20\x26\x26\x20flatpak\x20upgrade
 SETUVAR _fish_abbr_windows:systemctl\x20reboot\x20\x2d\x2dfirmware\x2dsetup
 SETUVAR fish_color_autosuggestion:4D5566
-SETUVAR fish_color_cancel:\x2dr
+SETUVAR fish_color_cancel:\x2d\x2dreverse
 SETUVAR fish_color_command:39BAE6
 SETUVAR fish_color_comment:626A73
 SETUVAR fish_color_cwd:59C2FF
@@ -20,10 +32,12 @@ SETUVAR fish_color_error:FF3333
 SETUVAR fish_color_escape:95E6CB
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host:normal
-SETUVAR fish_color_host_remote:yellow
+SETUVAR fish_color_host_remote:\x1d
+SETUVAR fish_color_keyword:\x1d
 SETUVAR fish_color_match:F07178
 SETUVAR fish_color_normal:B3B1AD
 SETUVAR fish_color_operator:E6B450
+SETUVAR fish_color_option:\x1d
 SETUVAR fish_color_param:B3B1AD
 SETUVAR fish_color_quote:C2D94C
 SETUVAR fish_color_redirection:FFEE99
@@ -34,9 +48,17 @@ SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_greeting:
 SETUVAR fish_key_bindings:fish_default_key_bindings
+SETUVAR fish_pager_color_background:\x1d
 SETUVAR fish_pager_color_completion:normal
-SETUVAR fish_pager_color_description:B3A06D\x1eyellow
+SETUVAR fish_pager_color_description:B3A06D
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/mier/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/home/mier/\x2elocal/bin\x1e/home/mier/\x2espicetify\x1e/home/under/\x2elocal/bin
+SETUVAR fish_pager_color_secondary_background:\x1d
+SETUVAR fish_pager_color_secondary_completion:\x1d
+SETUVAR fish_pager_color_secondary_description:\x1d
+SETUVAR fish_pager_color_secondary_prefix:\x1d
+SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dE6B450
+SETUVAR fish_pager_color_selected_completion:\x1d
+SETUVAR fish_pager_color_selected_description:\x1d
+SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR fish_user_paths:/home/mier/ffmpeg_build/lib\x1e/home/mier/git/scripts\x1e/home/mier/bin\x1e/home/mier/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/home/mier/\x2elocal/bin\x1e/home/mier/\x2espicetify\x1e/home/under/\x2elocal/bin

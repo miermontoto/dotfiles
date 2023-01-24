@@ -1,0 +1,57 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "tabbed",
+    "marks": [],
+    "percent": null,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 988,
+               "width": 941,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "WhatsApp — Mozilla Firefox",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^firefox$",
+               "instance": "^Navigator$",
+               "machine": "^victus$",
+               "title": "^WhatsApp\\ \\—\\ Mozilla\\ Firefox$",
+               "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 660,
+               "width": 1100,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^Alacritty$",
+               "instance": "^Alacritty$",
+               "machine": "^victus$",
+               "title": "^\\~$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}

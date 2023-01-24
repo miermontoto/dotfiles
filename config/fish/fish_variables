@@ -61,4 +61,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dE6B450
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/mier/ffmpeg_build/lib\x1e/home/mier/git/scripts\x1e/home/mier/bin\x1e/home/mier/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/home/mier/\x2elocal/bin\x1e/home/mier/\x2espicetify\x1e/home/under/\x2elocal/bin
+SETUVAR fish_user_paths:/usr/sbin\x1e/home/mier/ffmpeg_build/lib\x1e/home/mier/git/scripts\x1e/home/mier/bin\x1e/home/mier/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/home/mier/\x2elocal/bin\x1e/home/mier/\x2espicetify\x1e/home/under/\x2elocal/bin

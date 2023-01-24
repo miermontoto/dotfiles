@@ -856,8 +856,8 @@ font:
     family: "Fira Code"
     family: "FiraCode Nerd Font"
     family: "CaskaydiaCove Nerd Font"
-    family: "JetBrains Mono Medium"
-  size: 12.5
+    #family: "JetBrains Mono Medium"
+  size: 13
 
 import:
   - /home/under/.config/alacritty/iterm.yml

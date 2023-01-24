@@ -2,3 +2,5 @@ config
 !config/alacritty
 !config/neofetch
 !config/starship.toml
+!config/i3
+!config/polybar

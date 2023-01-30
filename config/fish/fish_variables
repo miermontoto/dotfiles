@@ -1,25 +1,25 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR AOC_ru:53616c7465645f5f5a73a61d317ce1f921a616d604f5734fcbba8b78b0eb4f091871317c2ef05afb66b57f1eb6c3a725
-SETUVAR AOC_session:53616c7465645f5f463745ffea4c9d5a5fd39eea565efebec36970d3f60c74f4509546572e38bf59b7a98c8da10d6d5a2fc1779ff7a51f07752782229b87085a
-SETUVAR --export --path GOPATH:/home/mier/go
 SETUVAR __fish_initialized:3400
-SETUVAR _fish_abbr_activate:source\x20env/bin/activate\x2efish
 SETUVAR _fish_abbr_configure:\x2e/configure
-SETUVAR _fish_abbr_dios:ssh\x20\x2dp\x202222\x20PCP71777658V\x40di119\x2eedv\x2euniovi\x2ees
-SETUVAR _fish_abbr_epi:python3\x20\x7e/git/epiCalendar/epiCalendar\x2epy
+SETUVAR _fish_abbr_dios:TERM\x3dxterm\x2d256color\x20ssh\x20\x2dp\x202222\x20PCP71777658V\x40di119\x2eedv\x2euniovi\x2ees
+SETUVAR _fish_abbr_docker:sudo\x20docker
+SETUVAR _fish_abbr_epi:python\x20epiCalendar\x2epy
 SETUVAR _fish_abbr_ga:git\x20add\x20\x2e
-SETUVAR _fish_abbr_gaa:git\x20add\x20\x2e
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dm
-SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
 SETUVAR _fish_abbr_gp:git\x20push
 SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_install:sudo\x20dnf\x20install
+SETUVAR _fish_abbr_isoft:cd\x20\x7e/uo/notes\x20\x26\x26\x20git\x20add\x20\x2eobsidian\x20\x26\x26\x20git\x20add\x20\x22y3t1/Ingenier\u00eda\x20del\x20Software\x20\x28ISoft\x29\x22\x20\x26\x26\x20git\x20commit\x20\x2dm\x20\x22vault\x20backup\x3a\x20ISoft\x22\x20\x26\x26\x20git\x20push
+SETUVAR _fish_abbr_jmt:java\x20\x2djar\x20\x7e/uo/y3t1/CES/PL/JMT/jmt\x2dmod\x2duniov\x2dv4\x2ejar
+SETUVAR _fish_abbr_ls:exa
 SETUVAR _fish_abbr_nf:neofetch
 SETUVAR _fish_abbr_pi:ssh\x20pi\x40192\x2e168\x2e0\x2e2
+SETUVAR _fish_abbr_powertpo:powertop
 SETUVAR _fish_abbr_remove:sudo\x20dnf\x20remove
 SETUVAR _fish_abbr_server:ssh\x20server\x40192\x2e168\x2e0\x2e88
 SETUVAR _fish_abbr_update:sudo\x20dnf\x20update\x20\x2dy\x20\x26\x26\x20flatpak\x20upgrade
+SETUVAR _fish_abbr_vscode:code
 SETUVAR _fish_abbr_windows:systemctl\x20reboot\x20\x2d\x2dfirmware\x2dsetup
 SETUVAR fish_color_autosuggestion:4D5566
 SETUVAR fish_color_cancel:\x2d\x2dreverse
@@ -61,4 +61,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dE6B450
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/mier/ffmpeg_build/lib\x1e/home/mier/git/scripts\x1e/home/mier/bin\x1e/home/mier/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/home/mier/\x2elocal/bin\x1e/home/mier/\x2espicetify\x1e/home/under/\x2elocal/bin
+SETUVAR fish_user_paths:/home/mier/git/scripts\x1e/home/mier/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/home/mier/\x2elocal/bin\x1e/home/mier/\x2espicetify\x1e/home/under/\x2elocal/bin

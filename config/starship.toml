@@ -1,7 +1,7 @@
 # ~/.config/starship.toml
 # ----- PROMPT -----
 add_newline = false
-right_format = """$custom$memory_usage$time$battery"""
+right_format = """$cmd_duration$custom$memory_usage$time$battery"""
 
 [time]
 time_format = "%T"

@@ -4,3 +4,4 @@ config
 !config/starship.toml
 !config/i3
 !config/polybar
+!config/fish

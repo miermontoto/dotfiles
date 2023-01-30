@@ -16,12 +16,11 @@ disabled = true
 success_symbol = "[➜](bold green)"
 error_symbol = "[➜](bold red)"
 
-
 [cmd_duration]
 min_time = 5
 format = "took [$duration]($style) "
 show_milliseconds = true
-disabled = false
+disabled = true
 
 [directory]
 truncation_length = 5
@@ -85,7 +84,7 @@ full_symbol = " "
 charging_symbol = " "
 discharging_symbol = " "
 empty_symbol = " "
-disabled = false
+disabled = true
 unknown_symbol = ""
 
 [[battery.display]]

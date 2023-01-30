@@ -2,7 +2,7 @@
 Current configuration of my linux enviroments.
 
 ## info
-- Fedora 36 (Nobara), Wayland, GNOME 42, Mutter, using fish as shell.
+- Fedora 36 (Nobara), X11, GNOME 42, Mutter, using fish as shell and starship as prompt.
 
 # screenshots
 <img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
@@ -41,7 +41,7 @@ Current configuration of my linux enviroments.
 ## App themes
 - **Firefox:** [Tokyo Night V2](https://addons.mozilla.org/en-US/firefox/addon/tokyo-night-v2/)
 - **Discord:** [Tokyo Night](https://betterdiscord.app/theme/Tokyo%20Night)
-- **VSCode:** [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night), modded with Monkey Patch.
+- **VSCode:** [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
 - **Alacritty:** [Tokyo Night](https://github.com/zatchheems/tokyo-night-alacritty-theme)
 - **Spotify:** [Sleek](https://github.com/morpheusthewhite/spicetify-themes) with [Tokyo Night color](https://gist.github.com/8KCoffeeWizard/fef5ec6d6adc1ba000f3a82e2a2b45bd)
 

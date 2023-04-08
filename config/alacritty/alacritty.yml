@@ -14,14 +14,14 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.s
-#env:
+env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  #TERM: alacritty
+  TERM: xterm-256color
 
 window:
   # Window dimensions (changes require restart)
@@ -874,6 +874,9 @@ key_bindings:
   - { key: C, mods: Control, action: Copy }
   - { key: C, mods: Control|Shift, chars: "\x03" }
 
+import:
+ - ~/.config/alacritty/themes/themes/gruvbox_dark.yaml
+
 schemes:
   # Tokyo Night theme, based on both:
   #   https://github.com/ghifarit53/tokyonight-vim
@@ -988,5 +991,5 @@ schemes:
         white:   '0xf1f1f1'
 
 
-colors: *ayu-dark
+#colors: *tokyo-night
 

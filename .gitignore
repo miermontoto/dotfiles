@@ -5,3 +5,4 @@ config
 !config/i3
 !config/polybar
 !config/fish
+config/fish/fish_variables

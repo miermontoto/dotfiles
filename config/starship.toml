@@ -71,6 +71,9 @@ style = "bold green"
 symbol = " "
 version_format = ""
 
+[c]
+format = 'via [$symbol]($style)'
+
 [java]
 format ="via [$symbol](bold red dimmed)[$version ]($style)"
 symbol = " "

@@ -12,7 +12,7 @@ abbr -a branch 'git checkout'
 abbr -a gp 'git push'
 abbr -a gpl 'git pull'
 abbr -a gcl 'git clone'
-abbr -a gc 'git commit'
+abbr -a gc 'git commit -m'
 abbr -a gclmm 'git clone https://github.com/miermontoto/'
 
 # dnf

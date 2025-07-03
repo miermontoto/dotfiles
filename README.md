@@ -1,49 +1,53 @@
 # dotfiles
-Current configuration of my linux enviroments.
+current configuration of my linux enviroments.
 
 ## info
-- Fedora 36 (Nobara), X11, GNOME 42, Mutter, using fish as shell and starship as prompt.
+- **OS:** Fedora Linux 42 (Workstation Edition), Wayland + GNOME Shell 48.1 + Mutter
+- **terminal:** [alacritty](https://alacritty.org/)
+- **shell:** [fish](https://fishshell.com/)
+- **prompt:** [starship](https://starship.rs/)
+- **notes:** [obsidian](https://obsidian.md/)
+- **editor:** [cursor](https://cursor.com/)
+- **browser:** [firefox](https://www.mozilla.org/firefox/)
 
-# screenshots
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop.png" width="960px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop2.png" width="960px" />
-<img src="https://github.com/miermontoto/dotfiles/raw/main/images/desktop3.png" width="960px" />
+
+## screenshots
+TODO!
 
 # configs
+## config files
+- this repository contains the configuration files that I replicate in my linux environments.
+- to apply them, simply use `stow --restow .` in the root of the directory.
+- ALL files will be symlinked to the `$HOME` directory.
+- some files, such as fonts and ssh keys are not included in this repository.
+
 ## GNOME extensions
-- [AppIndicator](https://extensions.gnome.org/extension/615/appindicator-support/)
-- [Application Volume Mixer](https://extensions.gnome.org/extension/3499/application-volume-mixer/)
+- [AppIndicator and KStatusNotifierItem Support](https://extensions.gnome.org/extension/615/appindicator-support/)
 - [Blur my shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)
-- [Dash to Dock for COSMIC](https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/)
-- [Extensions Sync](https://extensions.gnome.org/extension/1486/extensions-sync/)
-- [Gamemode Indicator](https://extensions.gnome.org/extension/1852/gamemode/)
-- [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/)
+- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- [Grand Theft Focus](https://extensions.gnome.org/extension/5410/grand-theft-focus/)
+- [gTile](https://extensions.gnome.org/extension/28/gtile/)
+- [JustPerfection](https://extensions.gnome.org/extension/3843/just-perfection/)
 - [Logo Menu](https://extensions.gnome.org/extension/4451/logo-menu/)
-- [NoAnnoyance v2](https://extensions.gnome.org/extension/2182/noannoyance/)
-- [OpenWeather](https://extensions.gnome.org/extension/750/openweather/)
-- [Remove Alt+Tab Delay v2](https://extensions.gnome.org/extension/2741/remove-alttab-delay-v2/)
-- [Rounded Window Corners](https://extensions.gnome.org/extension/5237/rounded-window-corners/?c=130913)
-- [Sound i/o Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/)
-- [spotify-tray](https://extensions.gnome.org/extension/4472/spotify-tray/)
-- [Transparent Top Bar](https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/)
+- [No overview at startup](https://extensions.gnome.org/extension/4099/no-overview/)
+- [Quick Settings Tweaker](https://extensions.gnome.org/extension/5446/quick-settings-tweaker/)
+- [RebootToUEFI](https://extensions.gnome.org/extension/5105/reboottouefi/)
+- [Search Light](https://extensions.gnome.org/extension/5489/search-light/)
+- [Speedinator](https://extensions.gnome.org/extension/6397/speedinator/)
+- [Spotify Tray](https://extensions.gnome.org/extension/4472/spotify-tray/)
+- [Tempomate](https://extensions.gnome.org/extension/7162/tempomate/)
+- [Tweaks & Extensions in System Menu](https://extensions.gnome.org/extension/1653/tweaks-extensions-in-system-menu/)
 - [User Themes](https://extensions.gnome.org/extension/19/user-themes/)
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/)
 
 ## GNOME tweaks
-- **Theme:** [Tokyo Night GTK](https://www.gnome-look.org/p/1681315/)
-- **Cursor:** [MacOS Big Sur](https://www.gnome-look.org/p/1408466/)
-- **Icons:** [Big Sur Originals Prime](https://github.com/Macintosh98/BigSur-Originals)
-- **Shell:** [Tokyo Night Shell](https://www.pling.com/p/1681470/)
-- **Wallpaper:** Mac OS "The Cliffs" dynamic background, using [Linux Dynamic Wallpapers](https://github.com/saint-13/Linux_Dynamic_Wallpapers)
-- **Fonts:** [SF Pro Display](https://github.com/jamieahelmke/sys-resources/tree/main/mac-fonts) in UI, [JetBrains Mono](https://www.jetbrains.com/lp/mono/) for monospace and Alacritty, [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads) for VSCode.
+- **theme:** [Orchis](https://github.com/vinceliuice/Orchis-theme)
+- **cursor:** [Apple Cursors (open-source)](https://github.com/ful1e5/apple_cursor)
+- **icons:** [WhiteSur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
+- **shell:** [Orchis GTK](https://github.com/vinceliuice/Orchis-theme)
+- **fonts:** [TX-02 Berkeley Mono™](https://mier.info/berkeley)
 
-## App themes
-- **Firefox:** [Tokyo Night V2](https://addons.mozilla.org/en-US/firefox/addon/tokyo-night-v2/)
-- **Discord:** [Tokyo Night](https://betterdiscord.app/theme/Tokyo%20Night)
-- **VSCode:** [Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)
-- **Alacritty:** [Tokyo Night](https://github.com/zatchheems/tokyo-night-alacritty-theme)
-- **Spotify:** [Sleek](https://github.com/morpheusthewhite/spicetify-themes) with [Tokyo Night color](https://gist.github.com/8KCoffeeWizard/fef5ec6d6adc1ba000f3a82e2a2b45bd)
-
-
-
+## app themes
+- **Cursor:** [Min Light/Dark](https://github.com/miguelsolorio/min-theme)
+- **Spotify:** [custom text theme](/.config/spicetify/Themes/text/user.css) through [spicetify](https://spicetify.app/)

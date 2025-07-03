@@ -1,0 +1,12 @@
+font-family = "TX-02"
+theme = "Brogrammer"
+initial-command = "zellij --layout ~/.config/zellij/layout.kdl"
+gtk-single-instance = true
+copy-on-select = clipboard
+
+cursor-style = "bar"
+cursor-style-blink = true
+
+keybind = ctrl+v=paste_from_clipboard
+keybind = alt+i=open_config
+keybind = ctrl+shift+r=reload_config

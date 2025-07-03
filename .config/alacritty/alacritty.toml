@@ -1,0 +1,41 @@
+
+[window]
+# opacity = 1
+resize_increments = true
+
+[window.dimensions]
+columns = 125
+lines = 30
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 13
+
+[font.normal]
+family = "BerkeleyMono Nerd Font"
+
+[keyboard]
+bindings = [
+    { key = "V", mods = "Control", action = "Paste" },
+    { key = "Backspace", mods = "Control", chars = "\u0017" },
+]
+
+
+[[mouse.bindings]]
+action = "Paste"
+mouse = "Right"
+
+[general]
+import = ["~/.config/alacritty/blood_moon.toml"]
+
+[terminal]
+
+[terminal.shell]
+program = "zellij"
+args = ["-l", ".config/zellij/layout.kdl"]

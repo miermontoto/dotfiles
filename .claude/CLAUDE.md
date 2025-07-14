@@ -24,6 +24,8 @@
 ## Code Style
 
 - code comments should start in lowercase and be in natural spanish language, with technical words in english if needed
+- avoid using magic numbers and strings as much as possible, preferring constants if applicable
+- prefer logical programming and lambda functions over looping
 
 ## AI Interaction
 

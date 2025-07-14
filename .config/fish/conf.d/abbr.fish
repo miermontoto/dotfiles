@@ -1,7 +1,6 @@
 abbr --erase (abbr --list)
 
 # git
-abbr -a !gs 'g status' # needs gitfox installed → sudo npm i -g gitfox
 abbr -a gac 'git add -A :/ && git commit -m'
 abbr -a ga 'git add .'
 abbr -a gs 'git status'
@@ -46,6 +45,7 @@ abbr -a pn 'pnpm'
 abbr -a lg 'lazygit'
 abbr -a mip 'curl https://am.i.mullvad.net'
 abbr -a spice 'sudo chmod a+wr -R /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify/Apps && sudo chmod a+wr /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify && spicetify update && flatpak run com.spotify.Client'
+abbr -a cc 'claude --dangerously-skip-permissions -c'
 
 # docker
 abbr -a 'dka' 'docker kill $(docker ps -q)'

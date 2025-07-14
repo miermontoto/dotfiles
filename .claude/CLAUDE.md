@@ -7,13 +7,28 @@
 ## Docker
 
 - always use "docker compose" over "docker-compose", as the latter is the V1 of the former
-- don't execute docker commands with the "-it" (interactive) flag as the shell you use is not interactive
+- don't execute docker commands with the "-it" (interactive) flag
 
 ## Communication
 
 - always reply in english
 
-## Task Management
+## Documentation
 
-- keep a memory "PROGRESS.md" file updated when completing a task. the markdown memory file should include the original task, and todo, in progress and finished tasks with a little of depth to allow new iterations of models to have enough context to properly continue with the original task
-- try to read the "PROGRESS.md" file before starting a new task
+- don't create markdown files unless prompted
+
+## Code Generation
+
+- generated code should be minimalistic and optimized
+
+## Code Style
+
+- code comments should start in lowercase and be in natural spanish language, with technical words in english if needed
+
+## AI Interaction
+
+- never commit in the name of the user unless specifically prompted to
+
+## Cloud Services
+
+- if prompted to access S3, use the aws cli

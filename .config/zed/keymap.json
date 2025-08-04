@@ -4,7 +4,7 @@
       "ctrl-r": "projects::OpenRecent",
       "ctrl-d": "go_to_line::Toggle",
       "ctrl-7": "editor::ToggleComments",
-      "ctrl-g": "git::Branch",
+      "ctrl-g": "workspace::ToggleLeftDock",
       "ctrl-shift-backspace": "pane::CloseAllItems",
       "ctrl-u": "editor::DeleteLine",
       "alt-i": "zed::OpenSettings",
@@ -17,16 +17,10 @@
     }
   },
   {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-j": null // deshabilitar "editor::JoinLines"
-    }
-  },
-  {
     "context": "Terminal",
     "bindings": {
       "ctrl-r": null, // deshabilitar "projects::OpenRecent"
-      "ctrl-shift-c": "terminal::Copy"
+      "ctrl-c": "terminal::Copy"
     }
   }
 ]

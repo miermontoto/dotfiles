@@ -1,4 +1,4 @@
-## Package Management
+# Node
 
 - prefer pnpm over npm
 - use fnm to manage node versions

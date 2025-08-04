@@ -1,53 +1,13 @@
 {
-  "ssh_connections": [
-    {
-      "host": "dev-api",
-      "username": "ec2-user",
-      "projects": [
-        {
-          "paths": [
-            "~/okt-api"
-          ]
-        }
-      ]
-    },
-    {
-      "host": "dev-serverless",
-      "projects": [
-        {
-          "paths": [
-            "/home/ec2-user"
-          ]
-        }
-      ]
-    },
-    {
-      "host": "gs",
-      "projects": []
-    },
-    {
-      "host": "gs",
-      "projects": []
-    },
-    {
-      "host": "gs",
-      "projects": []
-    },
-    {
-      "host": "88.99.192.176",
-      "username": "root",
-      "projects": []
-    }
-  ],
   "features": {
     "edit_prediction_provider": "zed"
   },
   "agent": {
+    "play_sound_when_agent_done": true,
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
+      "provider": "openrouter",
+      "model": "qwen/qwen3-coder"
     },
-    "version": "2"
   },
   "project_panel": {
     "dock": "right"
@@ -59,11 +19,11 @@
   "buffer_font_family": "TX-02",
   "buffer_font_weight": 500,
   "buffer_line_height": "comfortable",
-  "terminal": {"font_family": "BerkeleyMono Nerd Font"},
+  "terminal": { "font_family": "BerkeleyMono Nerd Font" },
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "One Light"
+    "dark": "Min Light (Solid)"
   },
   "autosave": {
     "after_delay": {
@@ -91,5 +51,11 @@
     "breadcrumbs": true,
     "quick_actions": false,
     "selections_menu": false
+  },
+  "lsp": {
+    "wakatime": {
+      "initialization_options": {
+      }
+    }
   }
 }

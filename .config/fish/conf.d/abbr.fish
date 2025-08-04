@@ -46,6 +46,7 @@ abbr -a lg 'lazygit'
 abbr -a mip 'curl https://am.i.mullvad.net'
 abbr -a spice 'sudo chmod a+wr -R /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify/Apps && sudo chmod a+wr /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify && spicetify update && flatpak run com.spotify.Client'
 abbr -a cc 'claude --dangerously-skip-permissions -c'
+abbr -a ccu "npx ccusage@latest"
 
 # docker
 abbr -a 'dka' 'docker kill $(docker ps -q)'
@@ -54,7 +55,7 @@ abbr -a 'dso' 'service docker stop'
 abbr -a 'dps' 'docker ps'
 
 # okt
-abbr -a ossh 'sh ~/okt/okt-scripts/okts.sh'
+abbr -a ssm 'sh ~/okt/okt-scripts/okts.sh'
 
 ## okt-api
 abbr -a api 'docker exec -it okticket-api'
@@ -64,7 +65,7 @@ abbr -a du 'docker exec -it okticket-api bash -c "composer du -o --quiet && php 
 abbr -a cud 'docker exec -it okticket-api bash -c "php -d memory_limit=-1 /usr/bin/composer update"'
 abbr -a cin 'docker exec -it okticket-api bash -c "php -d memory_limit=-1 /usr/bin/composer install"'
 abbr -a wipe 'docker exec okticket-db-mysql mysql -uroot -pokticket -e "DROP DATABASE IF EXISTS admin_okt; CREATE DATABASE admin_okt;" && docker exec okticket-db-mongodb mongo -u admin -p okticket --authenticationDatabase admin --eval "db.getSiblingDB(\'okticket\').dropDatabase()"'
-abbr -a val 'docker exec -it okticket-api bash -c "php artisan optimize; vendor/bin/phpunit --stop-on-failure --stop-on-error --filter BulkImport > /dev/null 2>&1; vendor/bin/phpunit --stop-on-failure --stop-on-error"'
+abbr -a val 'docker exec -it okticket-api bash -c "sh scripts/fullcomposer.sh; vendor/bin/phpunit --stop-on-failure --stop-on-error --filter BulkImport > /dev/null 2>&1; vendor/bin/phpunit --stop-on-failure --stop-on-error"'
 abbr -a tpuf 'docker exec -it okticket-api vendor/bin/phpunit --stop-on-failure --stop-on-error; vendor/bin/phpunit --stop-on-failure --stop-on-error'
 abbr -a seed 'docker exec -it okticket-api php artisan db:seed --class='
 abbr -a mig 'docker exec -it okticket-api php artisan migrate'

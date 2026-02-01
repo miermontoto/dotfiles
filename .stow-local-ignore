@@ -1,0 +1,77 @@
+# rcs
+RCS
+.+,v
+
+# cvs
+CVS
+\.\#.+
+.+~
+\#.*\#
+
+# svn
+\.svn
+
+# git
+\.git
+\.gitignore
+\.gitmodules
+
+# mercurial
+\.hg
+
+# bazaar
+\.bzr.*
+
+# darcs
+_darcs
+
+# editor temps
+\#.*\#
+\..*\.swp
+.+~
+
+# ide
+\.idea
+
+# documentation
+README.*
+LICENSE.*
+COPYING
+
+# screenshots
+.*\.png
+.*\.jpg
+.*\.jpeg
+.*\.gif
+
+# syncthing
+\.stignore
+\.stfolder
+\.stversions
+\.syncthing.*
+.*\.sync-conflict-.*
+
+# cache directories
+.*Cache.*
+.*cache.*
+
+# logs
+.*/logs/.*
+
+# browser/app storage
+.*Storage.*
+.*storage.*
+.*blob_storage.*
+
+# cursor specific
+\.config/Cursor
+
+# nixos
+nixos
+
+# claude
+\.claude
+
+# stow itself
+\.stow-local-ignore
+settings\.local\.json

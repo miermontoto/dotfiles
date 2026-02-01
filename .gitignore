@@ -8,3 +8,6 @@
 .config/Cursor
 nixos
 .DS_Store
+settings.local.json
+.lock
+

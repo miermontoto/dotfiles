@@ -4,3 +4,17 @@ projects
 statsig
 .credentials.json
 shell-snapshots
+debug
+file-history
+history.jsonl
+tmp
+telemetry
+stats-cache.json
+security_warnings*
+cache
+paste-cache
+plans
+plugins
+session-env
+pyccsl.py
+chrome

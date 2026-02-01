@@ -1,40 +1,96 @@
 {
+  "ssh_connections": [
+    {
+      "host": "fa",
+      "args": [],
+      "projects": []
+    },
+    {
+      "host": "dev-serverless",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ec2-user"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "eci-api-pre-l10",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ec2-user/okt-api"
+          ]
+        }
+      ]
+    }
+  ],
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "outline_panel": {
+    "dock": "right",
+    "button": false,
+  },
   "features": {
-    "edit_prediction_provider": "zed"
+    "edit_prediction_provider": "zed",
   },
   "agent": {
-    "play_sound_when_agent_done": true,
-    "default_model": {
-      "provider": "openrouter",
-      "model": "qwen/qwen3-coder"
+    // "button": false
+    "inline_assistant_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4",
     },
   },
+  "debugger": { "button": false },
   "project_panel": {
-    "dock": "right"
+    "dock": "right",
+  },
+  "global_lsp_settings": {
+    "button": false,
+  },
+  "chat_panel": {
+    "button": "never",
+  },
+  "search": {
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+  },
+  "notification_panel": {
+    "button": false,
+  },
+  "git_panel": {
+    "dock": "right",
   },
   "base_keymap": "VSCode",
-  "ui_font_size": 16,
+  "ui_font_size": 15,
   "ui_font_family": "TX-02",
-  "buffer_font_size": 18,
+  // "buffer_font_size": 18,
   "buffer_font_family": "TX-02",
-  "buffer_font_weight": 500,
-  "buffer_line_height": "comfortable",
-  "terminal": { "font_family": "BerkeleyMono Nerd Font" },
+  // "buffer_font_weight": 500,
+  // "buffer_line_height": "standard",
+  "terminal": {
+    "font_family": "BerkeleyMono Nerd Font",
+    "line_height": { "custom": 1.2 },
+  },
   "theme": {
     "mode": "dark",
-    "light": "One Light",
-    "dark": "Min Light (Solid)"
+    "light": "v0-light",
+    "dark": "Carbonfox - opaque",
   },
   "autosave": {
     "after_delay": {
-      "milliseconds": 500
-    }
+      "milliseconds": 500,
+    },
   },
   "format_on_save": "on",
   "git": {
     "inline_blame": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "extend_comment_on_newline": false,
   "wrap_guides": [80],
@@ -43,19 +99,28 @@
     "PHP": {
       "language_servers": ["intelephense", "!phpactor"],
       "prettier": {
-        "allowed": false
-      }
-    }
+        "allowed": false,
+      },
+    },
   },
   "toolbar": {
-    "breadcrumbs": true,
+    "breadcrumbs": false,
     "quick_actions": false,
-    "selections_menu": false
+    "selections_menu": false,
+    "agent_review": false,
+    "code_actions": false,
   },
   "lsp": {
     "wakatime": {
       "initialization_options": {
-      }
-    }
-  }
+        "api-url": "https://waka.mier.info/api",
+      },
+    },
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+  },
 }

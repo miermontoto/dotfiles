@@ -1,3 +1,0 @@
-- Split the current prompt into multiple tasks so that each task can be completed and efficiently.
-- The tasks should be numbered sequentially and each task should be assigned a unique identifier.
-- Save each task to a separate markdown file ready to be ingested by Claude Code.

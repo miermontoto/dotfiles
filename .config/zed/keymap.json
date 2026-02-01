@@ -4,7 +4,8 @@
       "ctrl-r": "projects::OpenRecent",
       "ctrl-d": "go_to_line::Toggle",
       "ctrl-7": "editor::ToggleComments",
-      "ctrl-g": "workspace::ToggleLeftDock",
+      "ctrl-g": "git_panel::ToggleFocus",
+      "ctrl-e": "project_panel::ToggleFocus",
       "ctrl-shift-backspace": "pane::CloseAllItems",
       "ctrl-u": "editor::DeleteLine",
       "alt-i": "zed::OpenSettings",
@@ -13,14 +14,19 @@
       "ctrl-shift-up": "editor::AddSelectionAbove",
       "ctrl-shift-down": "editor::AddSelectionBelow",
       "ctrl-shift-c": null,
-      "ctrl-j": "workspace::ToggleBottomDock"
+      "ctrl-j": "terminal_panel::ToggleFocus"
     }
   },
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-r": null, // deshabilitar "projects::OpenRecent"
-      "ctrl-c": "terminal::Copy"
+      "ctrl-r": null // deshabilitar "projects::OpenRecent"
+    }
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "ctrl-shift-enter": "git::Push"
     }
   }
 ]

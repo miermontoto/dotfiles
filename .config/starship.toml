@@ -2,7 +2,7 @@
 # ~/.config/starship.toml
 # ----- PROMPT -----
 add_newline = false
-right_format = '''$rust$ruby$python$docker_context$package$php$c$nodejs$java $cmd_duration$custom$memory_usage$time$battery$status$aws'''
+right_format = '''$rust$ruby$python$docker_context$package$php$c$nodejs$java$cmd_duration$custom$memory_usage$time$battery$status$aws'''
 command_timeout = 100000
 format = '''$os$all'''
 
@@ -26,16 +26,16 @@ RedHatEnterprise = " "
 
 [time]
 time_format = "%T"
-format = " $time($style) "
-style = "bright-white"
+format = " $time($style) "
+style = "italic grey"
 disabled = false
 
 [line_break]
 disabled = true
 
 [character]
-success_symbol = "[%](bold green)"
-error_symbol = "[%](bold red)"
+success_symbol = "[\\$](bold green)"
+error_symbol = "[\\$](bold red)"
 
 [cmd_duration]
 min_time = 5000

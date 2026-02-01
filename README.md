@@ -1,8 +1,6 @@
 # dotfiles
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-    <img src="./desktop.png">
-</div>
+![](./desktop.png)
 
 current configuration of my linux enviroments.
 
@@ -12,7 +10,7 @@ current configuration of my linux enviroments.
 - **terminal:** [alacritty](https://alacritty.org/)
   - **shell:** [fish](https://fishshell.com/)
   - **prompt:** [starship](https://starship.rs/)
-  - **other tools:** a[atuin](https://github.com/atuinsh/atuin), [zoxide](https://github.com/ajeetdsouza/zoxide), [claude](https://www.anthropic.com/claude-code)
+  - **other tools:** [atuin](https://github.com/atuinsh/atuin), [zoxide](https://github.com/ajeetdsouza/zoxide), [claude](https://www.anthropic.com/claude-code)
 - **notes:** [obsidian](https://obsidian.md/)
 - **IDE:** [zed](https://zed.dev/)
 - **browser:** [zen](https://zen-browser.app)

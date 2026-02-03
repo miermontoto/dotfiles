@@ -23,9 +23,23 @@ cleanup_closed_workspaces() {
     done
 }
 
+# función para reiniciar waybar con debounce
+restart_waybar() {
+    # debounce: esperar un momento por si hay más cambios
+    sleep 1
+    pkill waybar
+    sleep 0.5
+    waybar &
+}
+
 # escuchar eventos de hyprland
 socat -U - UNIX-CONNECT:/tmp/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock | while read -r line; do
     event=$(echo "$line" | cut -d'>' -f1)
+
+    # reiniciar waybar cuando cambian los monitores
+    if [ "$event" = "monitoradded" ] || [ "$event" = "monitorremoved" ]; then
+        restart_waybar &
+    fi
 
     # limpiar cuando se destruye un workspace
     if [ "$event" = "destroyworkspace" ] || [ "$event" = "destroyworkspacev2" ]; then

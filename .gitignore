@@ -11,3 +11,8 @@ nixos
 settings.local.json
 .lock
 
+.claude/tasks/
+.claude/usage-data/
+.claude/mcp-needs-auth-cache.json
+.claude/backups
+.claude/agents

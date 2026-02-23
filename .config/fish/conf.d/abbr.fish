@@ -5,7 +5,7 @@ abbr -a gac 'git add -A :/ && git commit -m'
 abbr -a ga 'git add .'
 abbr -a gs 'git status'
 abbr -a gd 'git diff'
-abbr -a branch 'git checkout'
+## branch -> .config/fish/functions/branch.fish
 abbr -a gp 'git push'
 abbr -a gpl 'git pull'
 abbr -a gcl 'git clone'
@@ -46,8 +46,8 @@ abbr -a pnsu 'pnpm self-update'
 abbr -a lg 'lazygit'
 abbr -a mip 'curl https://am.i.mullvad.net'
 abbr -a spice 'sudo chmod a+wr -R /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify/Apps && sudo chmod a+wr /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify && spicetify update && flatpak run com.spotify.Client'
-abbr -a cc 'claude --dangerously-skip-permissions'
-abbr -a ccc 'claude --dangerously-skip-permissions -c'
+abbr -a cc 'CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude --dangerously-skip-permissions'
+abbr -a ccc 'CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude --dangerously-skip-permissions -c'
 abbr -a ccu "npx ccusage@latest"
 
 # docker

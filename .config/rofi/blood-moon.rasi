@@ -1,0 +1,99 @@
+/* Blood Moon theme for Rofi
+ * basado en la paleta blood-moon de alacritty */
+
+* {
+    bg:             #10100EFF;
+    bg-alt:         #1A1A18FF;
+    fg:             #C6C6C4FF;
+    fg-dim:         #696969FF;
+    accent:         #FCE300EE;
+    urgent:         #C40233FF;
+    selected:       #FCE30026;
+    border-color:   #FCE300EE;
+
+    background-color:   transparent;
+    text-color:         @fg;
+    spacing:            0;
+}
+
+window {
+    background-color:   @bg;
+    border:             2px;
+    border-color:       @border-color;
+    border-radius:      0px;
+    width:              520px;
+    padding:            0;
+}
+
+mainbox {
+    children:   [ inputbar, listview ];
+    padding:    0;
+}
+
+inputbar {
+    children:           [ prompt, entry ];
+    background-color:   @bg-alt;
+    padding:            14px;
+    spacing:            10px;
+}
+
+prompt {
+    text-color: @accent;
+    font:       "TX-02 Bold 12";
+}
+
+entry {
+    placeholder:        "buscar...";
+    placeholder-color:  @fg-dim;
+}
+
+listview {
+    lines:      8;
+    padding:    6px 0;
+    scrollbar:  false;
+    fixed-height: true;
+}
+
+element {
+    padding:    10px 14px;
+    spacing:    10px;
+}
+
+element normal.normal,
+element alternate.normal {
+    text-color: @fg;
+}
+
+element normal.urgent,
+element alternate.urgent {
+    text-color: @urgent;
+}
+
+element normal.active,
+element alternate.active {
+    text-color: @accent;
+}
+
+element selected.normal {
+    background-color:   @selected;
+    text-color:         @accent;
+    border-radius:      0px;
+}
+
+element selected.urgent {
+    background-color:   @selected;
+    text-color:         @urgent;
+}
+
+element selected.active {
+    background-color:   @selected;
+    text-color:         @accent;
+}
+
+element-icon {
+    size: 22px;
+}
+
+element-text {
+    vertical-align: 0.5;
+}

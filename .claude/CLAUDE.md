@@ -35,3 +35,4 @@
 
 - if sudo password is needed for a specific command, let the user handle it instead of trying a workaround.
 - if prompted to access S3, use the aws cli
+- use tectonic for latex compilation

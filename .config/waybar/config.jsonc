@@ -15,6 +15,7 @@
   ],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
+    "custom/todo",
     "pulseaudio",
     // "custom/wifi",
     "custom/weather",
@@ -185,6 +186,15 @@
     "exec": "$HOME/.config/waybar/scripts/weather.py waybar",
     "return-type": "json",
     "restart-interval": 900,
+    "tooltip": true,
+  },
+  "custom/todo": {
+    "format": "{}",
+    "exec": "$HOME/.config/waybar/scripts/todo.sh",
+    "return-type": "json",
+    "interval": 60,
+    "signal": 8,
+    "on-click": "bash $HOME/.config/waybar/scripts/todo.sh toggle",
     "tooltip": true,
   },
   "custom/wifi": {

@@ -46,8 +46,8 @@ abbr -a pnsu 'pnpm self-update'
 abbr -a lg 'lazygit'
 abbr -a mip 'curl https://am.i.mullvad.net'
 abbr -a spice 'sudo chmod a+wr -R /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify/Apps && sudo chmod a+wr /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify && spicetify update && flatpak run com.spotify.Client'
-abbr -a cc 'CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude --dangerously-skip-permissions'
-abbr -a ccc 'CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude --dangerously-skip-permissions -c'
+abbr -a cc 'claude --dangerously-skip-permissions'
+abbr -a ccc 'claude --dangerously-skip-permissions -c'
 abbr -a ccu "npx ccusage@latest"
 
 # docker
@@ -72,6 +72,7 @@ abbr -a tpuf 'docker exec -it okticket-api vendor/bin/phpunit --stop-on-failure 
 abbr -a seed 'docker exec -it okticket-api php artisan db:seed --class='
 abbr -a mig 'docker exec -it okticket-api php artisan migrate'
 abbr -a artisan 'docker exec -it okticket-api php artisan'
+abbr -a optimize 'docker exec -it okticket-api php artisan optimize'
 abbr -a ov 'ruby ~/okt/okt-scripts/oktVolumes.rb'
 abbr -a queue 'docker exec -it okticket-api php artisan queue:work -vvv --queue=notifications,default'
 abbr -a rf 'ruby docker-compose/scripts/route_finder.rb'

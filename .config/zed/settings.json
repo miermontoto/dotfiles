@@ -77,7 +77,7 @@
     "line_height": { "custom": 1.2 },
   },
   "theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "v0-light",
     "dark": "Carbonfox - opaque",
   },

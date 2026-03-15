@@ -72,6 +72,9 @@ nixos
 # claude
 \.claude
 
+# runtime data (synced via syncthing, not stowed)
+\.data
+
 # stow itself
 \.stow-local-ignore
 settings\.local\.json

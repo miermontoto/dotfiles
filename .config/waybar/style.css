@@ -115,6 +115,7 @@ button:hover {
 #mpris,
 #power-tray,
 #custom-power-battery,
+#custom-todo,
 #custom-notifications {
     padding: 0 10px;
     color: #ffffff;
@@ -459,6 +460,19 @@ label:focus {
 #custom-weather {
     background-color: #9b59b6;
     padding: 0 10px;
+}
+
+#custom-todo {
+    background-color: #16a085;
+    padding: 0 10px;
+}
+
+#custom-todo.empty {
+    background-color: #64727d;
+}
+
+#custom-todo.has-pending {
+    background-color: #16a085;
 }
 
 #custom-wifi {

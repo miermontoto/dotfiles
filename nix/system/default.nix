@@ -1,0 +1,17 @@
+{
+  imports = [
+    ./audio.nix
+    ./boot.nix
+    ./desktop.nix
+    ./docker.nix
+    ./flatpak.nix
+    ./fonts.nix
+    ./i18n.nix
+    ./network.nix
+    ./nix-settings.nix
+    ./security.nix
+    ./services.nix
+    ./users.nix
+    ./vpn.nix
+  ];
+}

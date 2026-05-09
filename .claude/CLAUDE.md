@@ -6,12 +6,13 @@
 - do NOT deploy anything to production unless mentioned specifically.
 - do NOT make commits by yourself unless specifically prompted to.
 - developer's name is Juan Mier
+- avoid em dashes
+- asking the user questions for more context, giving options, or about important decisions is good. try using the askusertool instead of asking in plain text.
 
 ## Node
 
 - prefer pnpm over npm
 - use fnm to manage node versions
-- to approve pnpm builds, add "{"pnpm": {"neverBuiltDependencies": []}}" to package.json
 
 ## Docker
 
@@ -26,13 +27,29 @@
 ## Code Style
 
 - generated code should be minimalistic and optimized
+- performance is PARAMOUNT
 - code comments should start in lowercase and be in natural spanish language, with technical words in english if needed
+- do NOT remove existing code comments, modify them if needed. only remove them if they no longer apply.
 - avoid using magic numbers and strings as much as possible, preferring constants if applicable
-- prefer logical programming and lambda functions over
+- prefer logical programming and lambda functions over looping
 - avoid wrapper functions. each function should try as much as logically possible to manage its own logging and error handling
+- aim for reusability and hierarchy
 
 ## System Interaction
 
 - if sudo password is needed for a specific command, let the user handle it instead of trying a workaround.
-- if prompted to access S3, use the aws cli
+- if prompted to access aws resources, such as s3, ec2 or secrets manager, use the aws cli
 - use tectonic for latex compilation
+
+## Diagnostics
+- Always investigate root causes before suggesting fixes; avoid guessing (e.g., do not claim 'API key expired' or 'probably a hook issue' without verification).
+- When a fix doesn't work the first time, step back and re-examine assumptions rather than iterating on the same approach.
+
+## Localization
+- All user-facing Spanish text must include proper diacritics (á, é, í, ó, ú, ñ).
+- Never hardcode user-facing strings; use existing i18n keys.
+
+## Repo & Branch Verification
+- Before editing, verify you are in the correct repo and on the correct branch (run `git rev-parse --show-toplevel` and `git branch --show-current`).
+- For PRs, confirm the base branch with the user before generating descriptions.
+

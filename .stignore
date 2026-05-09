@@ -1,3 +1,26 @@
 .mozilla
 firefox
 *Cache*
+
+// claude code - volatile/machine-local state (not useful across devices)
+.claude/file-history
+.claude/telemetry
+.claude/shell-snapshots
+.claude/session-env
+.claude/cache
+.claude/paste-cache
+.claude/history.jsonl
+.claude/.credentials.json
+.claude/security_warnings*
+.claude/stats-cache.json
+.claude/statsig
+.claude/chrome
+.claude/usage-data
+.claude/ide
+.claude/debug
+.claude/tmp
+.claude/teams
+.claude/backups
+
+// hyprland - machine-local symlink
+.config/hypr/machines/current

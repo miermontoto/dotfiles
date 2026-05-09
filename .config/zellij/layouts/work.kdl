@@ -1,0 +1,16 @@
+// layout de trabajo por defecto: claude+shell apilados a la izquierda, lazygit a la derecha.
+// sin status bar (waybar ya cubre métricas de sistema).
+// pensado para multiples terminales en hyprland, donde cada ventana es un contexto independiente.
+layout {
+	tab_template name="work" {
+		pane split_direction="vertical" {
+			pane split_direction="horizontal" size="60%" {
+				pane focus=true
+				pane
+			}
+			pane size="40%" command="lazygit"
+		}
+	}
+
+	work
+}

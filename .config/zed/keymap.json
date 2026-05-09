@@ -14,19 +14,22 @@
       "ctrl-shift-up": "editor::AddSelectionAbove",
       "ctrl-shift-down": "editor::AddSelectionBelow",
       "ctrl-shift-c": null,
-      "ctrl-j": "terminal_panel::ToggleFocus"
-    }
+      "ctrl-j": "terminal_panel::ToggleFocus",
+    },
   },
   {
     "context": "Terminal",
     "bindings": {
-      "ctrl-r": null // deshabilitar "projects::OpenRecent"
-    }
+      "ctrl-r": null, // deshabilitar "projects::OpenRecent"
+      "ctrl-shift-c": "terminal::Copy",
+      "ctrl-j": "terminal_panel::Toggle",
+      "ctrl-v": "terminal::Paste",
+    },
   },
   {
     "context": "GitPanel",
     "bindings": {
-      "ctrl-shift-enter": "git::Push"
-    }
-  }
+      "ctrl-shift-enter": "git::Push",
+    },
+  },
 ]

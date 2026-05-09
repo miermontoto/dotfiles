@@ -13,10 +13,16 @@ abbr -a gc 'git commit -m'
 abbr -a gclmm 'git clone https://github.com/miermontoto/'
 abbr -a gf 'git fetch --all --prune'
 
-# dnf
-abbr -a 'i' 'sudo dnf install'
-abbr -a 'r' 'sudo dnf remove'
-abbr -a 'u' 'sudo dnf update; sudo flatpak upgrade -y'
+# package management
+if test -f /etc/NIXOS
+    abbr -a 'rebuild' 'sudo nixos-rebuild switch --flake ~/dotfiles'
+    abbr -a 'u' 'nix flake update --flake ~/dotfiles && sudo nixos-rebuild switch --flake ~/dotfiles'
+    abbr -a 'uf' 'sudo flatpak upgrade -y'
+else
+    abbr -a 'i' 'sudo dnf install'
+    abbr -a 'r' 'sudo dnf remove'
+    abbr -a 'u' 'sudo dnf update; sudo flatpak upgrade -y'
+end
 
 # config files
 abbr -a 'config.fish' 'zed ~/dotfiles/.config/fish/config.fish'
@@ -28,6 +34,7 @@ abbr -a 'config.ssh' 'zed ~/dotfiles/.ssh/config'
 abbr -a 'okt.ssh' 'zed ~/dotfiles/.ssh/okt/config'
 abbr -a 'config.kdl' 'zed ~/dotfiles/.config/zellij/config.kdl'
 abbr -a 'layout.kdl' 'zed ~/dotfiles/.config/zellij/layout.kdl'
+abbr -a 'work.kdl' 'zed ~/dotfiles/.config/zellij/layouts/work.kdl'
 
 # aliases
 abbr -a powershell 'pwsh'
@@ -48,6 +55,7 @@ abbr -a mip 'curl https://am.i.mullvad.net'
 abbr -a spice 'sudo chmod a+wr -R /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify/Apps && sudo chmod a+wr /var/lib/flatpak/app/com.spotify.Client/x86_64/stable/active/files/extra/share/spotify && spicetify update && flatpak run com.spotify.Client'
 abbr -a cc 'claude --dangerously-skip-permissions'
 abbr -a ccc 'claude --dangerously-skip-permissions -c'
+abbr -a ccr 'claude --dangerously-skip-permissions --resume'
 abbr -a ccu "npx ccusage@latest"
 
 # docker
@@ -81,6 +89,7 @@ abbr -a routes 'docker exec -it okticket-api php artisan route:list'
 abbr -a tinker 'docker exec -it okticket-api php artisan tinker'
 
 abbr -a ys 'fnm use 20 && yarn serve'
+abbr -a yys 'fnm use 20 && yarn && yarn serve'
 abbr -a slo 'pnpm serverless:offline'
 abbr -a sld 'pnpm serverless:deploy'
 abbr -a slt 'pnpm run:test'

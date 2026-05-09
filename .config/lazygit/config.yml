@@ -6,6 +6,8 @@ git:
       useConfig: false
 gui:
   nerdFontsVersion: "3"
+  border: single
 os:
-  editPreset: "zed"
+  editPreset: "code"
+  notARepository: skip
 disableStartupPopups: false

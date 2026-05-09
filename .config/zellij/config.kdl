@@ -34,7 +34,18 @@ keybinds clear-defaults=true {
         bind "r" { SwitchToMode "RenameTab"; TabNameInput 0; }
         bind "h" "Left" "Up" "k" { GoToPreviousTab; }
         bind "l" "Right" "Down" "j" { GoToNextTab; }
-        bind "n" { NewTab; SwitchToMode "Normal"; }
+        bind "n" {
+            NewTab {
+                pane split_direction="vertical" {
+                    pane split_direction="horizontal" size="60%" {
+                        pane focus=true
+                        pane
+                    }
+                    pane size="40%" command="lazygit"
+                }
+            }
+            SwitchToMode "Normal"
+        }
         bind "x" { CloseTab; SwitchToMode "Normal"; }
     }
     scroll {
@@ -180,7 +191,7 @@ session_serialization false
 // The name of the default layout to load on startup
 // Default: "default"
 //
-// default_layout "compact"
+default_layout "work"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
@@ -195,6 +206,9 @@ session_serialization false
 //   - false
 //
 // mouse_mode false
+
+// cambia el foco al pasar el ratón sobre otro panel (requiere >= 0.44)
+focus_follows_mouse true
 
 // Configure the scroll back buffer size
 // This is the number of lines zellij stores for each pane in the scroll back

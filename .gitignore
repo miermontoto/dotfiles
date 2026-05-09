@@ -8,6 +8,9 @@
 .config/Cursor
 nixos
 .DS_Store
+
+# sops-nix (secrets.yaml is encrypted and safe to commit)
+secrets/*.dec
 settings.local.json
 .lock
 
@@ -16,3 +19,9 @@ settings.local.json
 .claude/mcp-needs-auth-cache.json
 .claude/backups
 .claude/agents
+.claude/sessions
+.claude/.last-cleanup
+
+# hyprland - machine-local symlink
+.config/hypr/machines/current
+

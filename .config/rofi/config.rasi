@@ -1,2 +1,11 @@
+configuration {
+    font:               "TX-02 12";
+    show-icons:         true;
+    icon-theme:         "Papirus-Dark";
+    display-drun:       "";
+    display-run:        "";
+    display-window:     "";
+    drun-display-format: "{name}";
+}
 
-@theme "/usr/share/rofi/themes/sidebar.rasi"
+@theme "blood-moon"

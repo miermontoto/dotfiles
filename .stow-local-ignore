@@ -66,11 +66,12 @@ COPYING
 # cursor specific
 \.config/Cursor
 
-# nixos
+# nix
 nixos
-
-# claude
-\.claude
+nix
+secrets
+flake\.nix
+flake\.lock
 
 # runtime data (synced via syncthing, not stowed)
 \.data
@@ -78,3 +79,28 @@ nixos
 # stow itself
 \.stow-local-ignore
 settings\.local\.json
+
+# claude code runtime / machine-local state
+\.claude/\.credentials\.json
+\.claude/history\.jsonl
+\.claude/sessions
+\.claude/shell-snapshots
+\.claude/session-env
+\.claude/plugins/data
+\.claude/plugins/repos
+\.claude/plugins/marketplaces
+\.claude/tasks
+\.claude/backups
+\.claude/file-history
+\.claude/ide
+\.claude/telemetry
+\.claude/cache
+\.claude/statsig
+\.claude/todos
+\.claude/teams
+\.claude/usage-data
+\.claude/paste-cache
+\.claude/tmp
+\.claude/debug
+\.claude/chrome
+\.claude/plans

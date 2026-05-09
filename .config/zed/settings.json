@@ -1,4 +1,17 @@
 {
+  "diff_view_style": "unified",
+  "agent_ui_font_size": 16.0,
+  "edit_predictions": {
+    "provider": "zed"
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "mode": "bypassPermissions"
+      },
+      "type": "registry"
+    }
+  },
   "ssh_connections": [
     {
       "host": "fa",
@@ -28,16 +41,18 @@
       ]
     }
   ],
-  "icon_theme": "Colored Zed Icons Theme Dark",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Colored Zed Icons Theme Dark",
+    "dark": "Colored Zed Icons Theme Dark"
+  },
   "outline_panel": {
     "dock": "right",
     "button": false,
   },
-  "features": {
-    "edit_prediction_provider": "zed",
-  },
   "agent": {
     // "button": false
+    "dock": "right",
     "inline_assistant_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4",
@@ -57,12 +72,14 @@
     "button": false,
   },
   "collaboration_panel": {
+    "dock": "left",
     "button": false,
   },
   "notification_panel": {
     "button": false,
   },
   "git_panel": {
+    "tree_view": true,
     "dock": "right",
   },
   "base_keymap": "VSCode",
@@ -78,7 +95,7 @@
   },
   "theme": {
     "mode": "light",
-    "light": "v0-light",
+    "light": "Min Light (Solid)",
     "dark": "Carbonfox - opaque",
   },
   "autosave": {

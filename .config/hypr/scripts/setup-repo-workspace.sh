@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # preguntar al usuario por el directorio del repositorio
 repo_dir=$(echo "$HOME" | rofi -dmenu -p "Repository directory:")

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # script para cambiar el perfil de energía
 # uso: ./set-power-profile.sh [performance|balanced|power-saver]

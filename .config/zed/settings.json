@@ -1,4 +1,5 @@
 {
+  "cli_default_open_behavior": "existing_window",
   "diff_view_style": "unified",
   "agent_ui_font_size": 16.0,
   "edit_predictions": {
@@ -95,7 +96,7 @@
   },
   "theme": {
     "mode": "light",
-    "light": "Min Light (Solid)",
+    "light": "One Light",
     "dark": "Carbonfox - opaque",
   },
   "autosave": {

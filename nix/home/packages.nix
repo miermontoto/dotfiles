@@ -15,6 +15,6 @@
     nautilus
     appimage-run
     mongodb-compass
-    dbeaver-bin
+    tableplus
   ];
 }

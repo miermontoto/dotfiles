@@ -9,10 +9,13 @@ in {
 
   programs.spicetify = {
     enable = true;
-    theme = spicePkgs.themes.text;
+    theme = {
+      name = "text";
+      src = ../../.config/spicetify/Themes/text;
+    };
 
     enabledCustomApps = with spicePkgs.apps; [
-      marketplace
+      # marketplace
     ];
   };
 }

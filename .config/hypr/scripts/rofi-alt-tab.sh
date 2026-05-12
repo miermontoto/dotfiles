@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # usar el modo window de rofi que maneja mejor alt+tab
 rofi -show window \

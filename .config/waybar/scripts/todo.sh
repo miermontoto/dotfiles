@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 TODO_DIR="$HOME/dotfiles/.data/waybar-todo"
 TODO_FILE="$TODO_DIR/todos.txt"

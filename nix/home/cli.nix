@@ -26,5 +26,18 @@
 
     alejandra
     nix-output-monitor
+    # solo dig/nslookup/host, sin el servidor BIND completo
+    dnsutils
+    awscli2
+    awslogs
+
+    nh
+    cloudflared
+    ssm-session-manager-plugin
+    witr
+    tldr
   ];
+
+  # mantener man pero saltarse el mandb (rompe apropos/man -k)
+  programs.man.generateCaches = false;
 }

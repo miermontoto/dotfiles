@@ -26,8 +26,8 @@
 
 ## Code Style
 
-- generated code should be minimalistic and optimized
-- performance is PARAMOUNT
+- generated code should focus in minimalism and performance - this is really important.
+- abstraction is the key to success - oop for code organization and reusability, functional programming for performance and immutability
 - code comments should start in lowercase and be in natural spanish language, with technical words in english if needed
 - do NOT remove existing code comments, modify them if needed. only remove them if they no longer apply.
 - avoid using magic numbers and strings as much as possible, preferring constants if applicable

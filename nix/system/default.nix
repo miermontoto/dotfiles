@@ -8,6 +8,7 @@
     ./fonts.nix
     ./i18n.nix
     ./network.nix
+    ./nix-ld.nix
     ./nix-settings.nix
     ./security.nix
     ./services.nix

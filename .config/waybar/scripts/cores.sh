@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # obtiene numero de cores
 cores=$(nproc)

@@ -1,28 +1,39 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
+  programs.gh = {
+    enable = true;
+    # registra helpers credential.https://github.com y credential.https://gist.github.com automáticamente
+    gitCredentialHelper.enable = true;
+  };
+
+  programs.delta = {
+    enable = true;
+    options = {
+      navigate = true;
+      dark = true;
+    };
+  };
+
   programs.git = {
     enable = true;
-    userName = "miermontoto";
-    userEmail = "mier@mier.info";
 
     signing = {
-      key = null;
+      key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDFkLofLDr4kfFlnYm0G3p8Axhstz7x+1C6Gw8fRaqCA";
       signByDefault = true;
       format = "ssh";
       signer = "${pkgs._1password-gui}/bin/op-ssh-sign";
     };
 
-    extraConfig = {
-      credential."https://github.com".helper = "!${pkgs.gh}/bin/gh auth git-credential";
-      credential."https://gist.github.com".helper = "!${pkgs.gh}/bin/gh auth git-credential";
+    settings = {
+      user = {
+        name = "miermontoto";
+        email = "mier@mier.info";
+      };
+
+      credential.helper = "store";
       push.autoSetupRemote = true;
       pull.rebase = true;
       init.defaultBranch = "main";
-      core.pager = "delta";
-      interactive.diffFilter = "delta --color-only";
-      delta = {
-        navigate = true;
-        dark = true;
-      };
       merge.conflictstyle = "diff3";
       diff.colorMoved = "default";
     };

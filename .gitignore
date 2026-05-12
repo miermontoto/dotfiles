@@ -25,3 +25,6 @@ settings.local.json
 # hyprland - machine-local symlink
 .config/hypr/machines/current
 
+/.claude/sessions
+/.claude/agents
+/.claude/worktrees

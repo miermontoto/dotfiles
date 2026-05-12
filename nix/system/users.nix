@@ -5,7 +5,7 @@
   users.users.mier = {
     isNormalUser = true;
     description = "Juan Mier";
-    extraGroups = ["networkmanager" "wheel" "docker" "video" "audio"];
+    extraGroups = ["networkmanager" "wheel" "docker" "video" "audio" "input"];
     shell = pkgs.fish;
   };
 }

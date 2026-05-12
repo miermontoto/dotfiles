@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # directorio donde se guardan las asociaciones
 CONFIG_DIR="$HOME/.config/hypr/workspace-dirs"

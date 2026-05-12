@@ -5,7 +5,7 @@
       font-awesome
       noto-fonts
       noto-fonts-cjk-sans
-      noto-fonts-emoji
+      noto-fonts-color-emoji
       inter
       dm-sans
     ];
@@ -19,5 +19,4 @@
       };
     };
   };
-  # fuentes personalizadas (TX-02, BerkeleyMono, Nerd Fonts) via home.file -> .local/share/fonts
 }

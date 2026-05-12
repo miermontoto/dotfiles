@@ -12,7 +12,7 @@
     libnotify
 
     # launcher
-    rofi-wayland
+    rofi
 
     # clipboard
     clipse

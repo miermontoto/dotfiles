@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # obtiene información de la ventana activa
 window_info=$(hyprctl activewindow -j)

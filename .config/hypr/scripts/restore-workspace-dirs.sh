@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # restaura los nombres de workspaces basados en directorios guardados
 CONFIG_DIR="$HOME/.config/hypr/workspace-dirs"

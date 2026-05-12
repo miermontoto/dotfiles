@@ -8,10 +8,10 @@
     enable = true;
     settings = {
       default_session = {
-        command = "${pkgs.writeShellScript "start-hyprland" ''
+        command = "${pkgs.writeShellScript "greetd-hyprland-session" ''
           SETUP="/home/mier/dotfiles/.config/hypr/machines/setup.sh"
           [ -x "$SETUP" ] && "$SETUP"
-          exec ${pkgs.hyprland}/bin/Hyprland
+          exec ${pkgs.hyprland}/bin/start-hyprland
         ''}";
         user = "mier";
       };
@@ -50,4 +50,7 @@
     XDG_CURRENT_DESKTOP = "Hyprland";
     XDG_SESSION_DESKTOP = "Hyprland";
   };
+
+  # man pages sí, pero sin rebuild de mandb en cada switch (rompe apropos/man -k)
+  documentation.man.cache.enable = false;
 }

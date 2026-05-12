@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # obtiene las últimas 5 notificaciones de mako
 notifications=$(makoctl history | grep "^Notification" | head -5 | sed 's/Notification [0-9]*: //')

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # diagnóstico completo de red estilo WhyFi
 get_wifi_info() {

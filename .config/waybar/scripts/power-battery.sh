@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # obtener el perfil de energía actual
 if command -v tuned-adm &> /dev/null; then

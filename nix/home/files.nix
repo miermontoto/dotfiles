@@ -18,5 +18,13 @@ in {
     ".config/starship.toml".source = link ".config/starship.toml";
 
     ".local/share/fonts".source = link ".local/share/fonts";
+
+    ".ssh".source = link ".ssh";
+    ".aws".source = link ".aws";
+
+    ".claude/settings.json".source = link ".claude/settings.json";
+    ".claude/CLAUDE.md".source = link ".claude/CLAUDE.md";
+    ".claude/agents".source = link ".claude/agents";
+    ".claude/commands".source = link ".claude/commands";
   };
 }

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # obtener workspaces de hyprland
 workspaces=$(hyprctl workspaces -j)

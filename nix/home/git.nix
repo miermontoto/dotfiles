@@ -4,6 +4,7 @@
     enable = true;
     # registra helpers credential.https://github.com y credential.https://gist.github.com automáticamente
     gitCredentialHelper.enable = true;
+    settings.aliases.co = "pr checkout";
   };
 
   programs.delta = {

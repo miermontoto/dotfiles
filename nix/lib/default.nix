@@ -20,6 +20,8 @@ inputs.nixpkgs.lib.nixosSystem {
         home-manager = {
           useGlobalPkgs = true;
           useUserPackages = true;
+          # ante colisiones con archivos no gestionados, los renombra a *.bak en lugar de abortar la activación
+          backupFileExtension = "bak";
           extraSpecialArgs = {inherit inputs self hostname stateVersion;};
           users.mier = import ../home;
         };

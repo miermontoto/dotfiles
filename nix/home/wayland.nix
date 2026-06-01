@@ -8,7 +8,7 @@
 
     # bar y notificaciones
     waybar
-    mako
+    swaynotificationcenter
     libnotify
 
     # launcher
@@ -18,9 +18,10 @@
     clipse
     wl-clipboard
 
-    # screenshot
+    # screenshot e imágenes
     grim
     slurp
+    imv
 
     # tray
     blueman

@@ -8,13 +8,15 @@
       noto-fonts-color-emoji
       inter
       dm-sans
+      nerd-fonts.symbols-only
     ];
 
     fontconfig = {
       defaultFonts = {
         serif = ["Noto Serif"];
         sansSerif = ["Inter" "Noto Sans"];
-        monospace = ["TX-02" "BerkeleyMono Nerd Font"];
+        # symbols nerd font mono cubre los glifos que faltan en el parche parcial de BerkeleyMono Nerd Font
+        monospace = ["TX-02" "BerkeleyMono Nerd Font" "Symbols Nerd Font Mono"];
         emoji = ["Noto Color Emoji"];
       };
     };

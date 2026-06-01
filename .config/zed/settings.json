@@ -17,7 +17,18 @@
     {
       "host": "fa",
       "args": [],
-      "projects": []
+      "projects": [
+        {
+          "paths": [
+            "/home/mier"
+          ]
+        },
+        {
+          "paths": [
+            "/home/mier/dotfiles"
+          ]
+        }
+      ]
     },
     {
       "host": "dev-serverless",

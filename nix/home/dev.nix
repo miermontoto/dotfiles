@@ -19,11 +19,16 @@
     # docker compose v2 viene como plugin con pkgs.docker (system-wide); no instalar docker-compose v1
     # gh se instala via programs.gh en git.nix
     lazygit
+    difftastic # difftool sintáctico para `git difftool`
     socat
     bc
     nixd
     nil
     pnpm
     bun
+    uv
+    android-tools
+    cordova
+    typescript-language-server
   ];
 }

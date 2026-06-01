@@ -4,6 +4,7 @@
     ./boot.nix
     ./desktop.nix
     ./docker.nix
+    ./envfs.nix
     ./flatpak.nix
     ./fonts.nix
     ./i18n.nix

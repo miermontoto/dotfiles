@@ -28,3 +28,9 @@ settings.local.json
 /.claude/sessions
 /.claude/agents
 /.claude/worktrees
+.claude/jobs
+.claude/daemon
+.claude/security
+.claude/daemon.lock
+.claude/daemon.log
+.claude/daemon.status.json

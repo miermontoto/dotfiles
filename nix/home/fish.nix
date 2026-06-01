@@ -1,7 +1,6 @@
 {
   config,
   pkgs,
-  lib,
   ...
 }: let
   dotfiles = "/home/mier/dotfiles";
@@ -79,5 +78,4 @@ in {
     ".config/fish/completions".source = link ".config/fish/completions";
     ".config/fish/functions".source = link ".config/fish/functions";
   };
-
 }

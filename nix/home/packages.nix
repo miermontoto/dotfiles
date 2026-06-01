@@ -16,5 +16,8 @@
     appimage-run
     mongodb-compass
     tableplus
+    clamav
+    clamtk
+    chromium
   ];
 }

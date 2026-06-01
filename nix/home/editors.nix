@@ -5,6 +5,6 @@
     zed-editor
   ];
 
-  # nixpkgs expone el binario como `zeditor`; aliasamos a `zed` en ~/.local/bin
+  # alias "zeditor" -> "zed"
   home.file.".local/bin/zed".source = "${pkgs.zed-editor}/bin/zeditor";
 }

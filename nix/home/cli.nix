@@ -36,6 +36,8 @@
     ssm-session-manager-plugin
     witr
     tldr
+    clamav
+    stow
   ];
 
   # mantener man pero saltarse el mandb (rompe apropos/man -k)

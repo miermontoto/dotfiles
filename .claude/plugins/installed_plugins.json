@@ -1,0 +1,227 @@
+{
+  "version": 2,
+  "plugins": {
+    "context7@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/context7/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/code-review/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/security-guidance/2.0.0",
+        "version": "2.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-06-01T06:51:22.999Z"
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "laravel-boost@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/laravel-boost/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "php-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/php-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/feature-dev/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "pyright-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "explanatory-output-style@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/explanatory-output-style/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "claude-md-management@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "ruby-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/ruby-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      },
+      {
+        "scope": "user",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/ruby-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-26T15:47:19.925Z",
+        "lastUpdated": "2026-05-26T15:47:19.925Z"
+      }
+    ],
+    "clangd-lsp@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/clangd-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-11T06:49:19.296Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z"
+      }
+    ],
+    "atlassian@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/atlassian/9b52fb18e184",
+        "version": "9b52fb18e184",
+        "installedAt": "2026-05-13T11:37:20.292Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z",
+        "gitCommitSha": "9b52fb18e184edc307ce33f8bf4cdf148dedf1f2"
+      }
+    ],
+    "deploy-on-aws@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/deploy-on-aws/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2026-05-13T11:37:23.008Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z",
+        "gitCommitSha": "6cfb70e55aa142a8eda66e6ef7966d5921bdf9a2"
+      }
+    ],
+    "aws-serverless@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/aws-serverless/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-13T11:37:26.033Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z",
+        "gitCommitSha": "6cfb70e55aa142a8eda66e6ef7966d5921bdf9a2"
+      }
+    ],
+    "claude-code-wakatime@wakatime": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/wakatime/claude-code-wakatime/3.1.6",
+        "version": "3.1.6",
+        "installedAt": "2026-05-15T07:49:15.307Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z",
+        "gitCommitSha": "9b9933dee1d1a40ae6405a921b02276c38f5947a"
+      }
+    ],
+    "claude-hud@claude-hud": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-hud/claude-hud/0.1.0",
+        "version": "0.1.0",
+        "installedAt": "2026-05-15T07:49:15.307Z",
+        "lastUpdated": "2026-05-25T07:10:46.201Z",
+        "gitCommitSha": "6f7d07323c5615afc08771cebc22073e8c04a946"
+      }
+    ],
+    "figma@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/figma/2.2.12",
+        "version": "2.2.12",
+        "installedAt": "2026-05-25T07:10:46.201Z",
+        "lastUpdated": "2026-05-25T07:19:11.848Z"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/home/mier/dotfiles",
+        "installPath": "/home/mier/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0",
+        "version": "5.1.0",
+        "installedAt": "2026-05-25T07:10:46.201Z",
+        "lastUpdated": "2026-05-25T07:19:11.462Z"
+      }
+    ]
+  }
+}

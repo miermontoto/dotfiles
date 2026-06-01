@@ -1,0 +1,26 @@
+{
+  "claude-plugins-official": {
+    "source": {
+      "source": "github",
+      "repo": "anthropics/claude-plugins-official"
+    },
+    "installLocation": "/home/mier/.claude/plugins/marketplaces/claude-plugins-official",
+    "lastUpdated": "2026-06-01T16:08:53.015Z"
+  },
+  "claude-hud": {
+    "source": {
+      "source": "github",
+      "repo": "jarrodwatts/claude-hud"
+    },
+    "installLocation": "/home/mier/.claude/plugins/marketplaces/claude-hud",
+    "lastUpdated": "2026-05-15T07:32:00.901Z"
+  },
+  "wakatime": {
+    "source": {
+      "source": "github",
+      "repo": "wakatime/claude-code-wakatime"
+    },
+    "installLocation": "/home/mier/.claude/plugins/marketplaces/wakatime",
+    "lastUpdated": "2026-05-15T07:32:45.301Z"
+  }
+}

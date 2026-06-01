@@ -4,7 +4,7 @@
 - avoid creating unnecessary scripts. if needed, create test scripts but delete them when you're done.
 - avoid creating summary files/documents unless specifically mentioned.
 - do NOT deploy anything to production unless mentioned specifically.
-- do NOT make commits by yourself unless specifically prompted to.
+- do NOT make commits by yourself unless specifically prompted to OR in a worktree you created yourself. do not use this as an escape route, only if prompted or obligated to create a worktree you should do so.
 - developer's name is Juan Mier
 - avoid em dashes
 - asking the user questions for more context, giving options, or about important decisions is good. try using the askusertool instead of asking in plain text.
@@ -52,4 +52,3 @@
 ## Repo & Branch Verification
 - Before editing, verify you are in the correct repo and on the correct branch (run `git rev-parse --show-toplevel` and `git branch --show-current`).
 - For PRs, confirm the base branch with the user before generating descriptions.
-

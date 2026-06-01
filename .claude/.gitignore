@@ -14,7 +14,14 @@ security_warnings*
 cache
 paste-cache
 plans
-plugins
+plugins/*
+plugins/claude-hud/*
+!plugins/installed_plugins.json
+!plugins/known_marketplaces.json
+!plugins/config.json
+!plugins/blocklist.json
+!plugins/claude-hud/
+!plugins/claude-hud/config.json
 session-env
 pyccsl.py
 chrome

@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "lineLayout": "expanded",
+  "showSeparators": false,
+  "gitStatus": {
+    "enabled": true,
+    "showDirty": true,
+    "showAheadBehind": true,
+    "showFileStats": true
+  },
+  "display": {
+    "showCost": true,
+    "showModel": true,
+    "showContextBar": true,
+    "showProject": false,
+    "showConfigCounts": false,
+    "showTokenBreakdown": false,
+    "showSpeed": true,
+    "showUsage": true,
+    "showDuration": false,
+    "usageBarEnabled": false,
+    "usageCompact": true
+  },
+  "color": {
+    "git": "202"
+  }
+}

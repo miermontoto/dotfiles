@@ -37,6 +37,12 @@
       init.defaultBranch = "main";
       merge.conflictstyle = "diff3";
       diff.colorMoved = "default";
+
+      # `git diff` sigue usando delta (configurado arriba); difftastic se reserva
+      # para `git difftool` cuando se quiere un diff estructural (syntax-aware).
+      diff.tool = "difftastic";
+      difftool.difftastic.cmd = ''${pkgs.difftastic}/bin/difft "$LOCAL" "$REMOTE"'';
+      difftool.prompt = false;
     };
   };
 }

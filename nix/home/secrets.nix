@@ -11,7 +11,6 @@ in {
     age.keyFile = "/home/mier/.config/sops/age/keys.txt";
 
     secrets = {
-      anthropic_base_url = {};
       jira_api_token = {};
       jwt_secret_key = {};
       openweathermap_api_key = {};
@@ -27,7 +26,6 @@ in {
 
     templates."fish-secrets.fish" = {
       content = ''
-        set -gx ANTHROPIC_BASE_URL "${config.sops.placeholder.anthropic_base_url}"
         set -gx JIRA_API_TOKEN "${config.sops.placeholder.jira_api_token}"
         set -gx JWT_SECRET_KEY "${config.sops.placeholder.jwt_secret_key}"
         set -gx OPENWEATHERMAP_API_KEY "${config.sops.placeholder.openweathermap_api_key}"

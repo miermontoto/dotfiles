@@ -73,6 +73,9 @@ secrets
 flake\.nix
 flake\.lock
 
+# kit de migración a otra distro: paquetes, configs de sistema y guía de instalación
+migration
+
 # runtime data (synced via syncthing, not stowed)
 \.data
 
@@ -104,3 +107,11 @@ settings\.local\.json
 \.claude/debug
 \.claude/chrome
 \.claude/plans
+\.claude/plugins/installed_plugins\.json
+\.claude/plugins/known_marketplaces\.json
+\.claude/\.last-cleanup
+\.claude/projects/.*/\.session-aliases
+
+# fish universal vars y daemon state (por-máquina, no compartir)
+\.config/fish/fish_variables
+\.config/fish/fishd\..*

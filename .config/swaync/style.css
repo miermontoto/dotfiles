@@ -1,0 +1,161 @@
+/* paleta basada en la config de mako original */
+/* bg=#141618, border=#4E5053, text=#CDD6F4, low=#50C878, high=#FF6B6B */
+
+* {
+  font-family: "TX-02", monospace;
+  font-size: 10pt;
+}
+
+/* gtk4 pinta el window root opaco por defecto siguiendo el tema del sistema:
+   hay que forzar transparencia en window + decoration o aparece pantalla blanca
+   al abrir el panel. background-color es más específico que background en gtk css */
+window,
+window.background,
+.background,
+.blank-window,
+decoration,
+.floating-notifications,
+.floating-notifications.background,
+.control-center-list,
+.control-center-list-placeholder,
+.notification-group {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+
+/* popups flotantes (lo que antes mostraba mako) */
+.floating-notifications.background .notification-row {
+  margin: 10px;
+  padding: 0;
+  background: transparent;
+}
+
+.floating-notifications.background .notification {
+  background: #141618;
+  border: 2px solid #4E5053;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.floating-notifications.background .notification-content {
+  background: transparent;
+  padding: 15px;
+  color: #CDD6F4;
+}
+
+/* urgencia: equivalente a [urgency=low] / [urgency=high] de mako */
+.floating-notifications.background .notification.low {
+  border-color: #50C878;
+}
+.floating-notifications.background .notification.critical {
+  border-color: #FF6B6B;
+}
+
+.summary {
+  color: #CDD6F4;
+  font-weight: bold;
+}
+
+.body, .time {
+  color: #CDD6F4;
+}
+
+.close-button {
+  background: transparent;
+  color: #CDD6F4;
+  border: none;
+  padding: 0 5px;
+  margin: 0;
+  box-shadow: none;
+}
+.close-button:hover {
+  background: #FF6B6B;
+  color: #141618;
+}
+
+/* panel (control center) */
+.control-center {
+  background: #141618;
+  border: 2px solid #4E5053;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.control-center .notification-row {
+  margin: 5px 0;
+}
+
+.control-center .notification-row .notification-background .notification {
+  background: #1a1c1f;
+  border: 1px solid #4E5053;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.control-center .notification.low {
+  border-left: 3px solid #50C878;
+}
+.control-center .notification.critical {
+  border-left: 3px solid #FF6B6B;
+}
+
+/* cabecera del panel */
+.widget-title {
+  color: #CDD6F4;
+  font-weight: bold;
+  padding: 8px 10px;
+  margin: 0 0 5px 0;
+}
+.widget-title > button {
+  background: transparent;
+  color: #CDD6F4;
+  border: 1px solid #4E5053;
+  border-radius: 0;
+  padding: 2px 10px;
+  font-weight: normal;
+}
+.widget-title > button:hover {
+  background: #4E5053;
+}
+
+/* toggle do not disturb */
+.widget-dnd {
+  color: #CDD6F4;
+  padding: 5px 10px;
+  margin: 0 0 5px 0;
+}
+.widget-dnd > switch {
+  background: #141618;
+  border: 1px solid #4E5053;
+  border-radius: 0;
+  box-shadow: none;
+}
+.widget-dnd > switch:checked {
+  background: #FF6B6B;
+  border-color: #FF6B6B;
+}
+.widget-dnd > switch slider {
+  background: #CDD6F4;
+  border-radius: 0;
+  border: none;
+}
+
+/* botones de acción dentro de notificaciones */
+.notification-action {
+  background: transparent;
+  color: #CDD6F4;
+  border: 1px solid #4E5053;
+  border-radius: 0;
+  margin: 2px;
+}
+.notification-action:hover {
+  background: #4E5053;
+}
